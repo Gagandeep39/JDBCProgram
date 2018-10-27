@@ -1,0 +1,162 @@
+/**
+*Made by Gagandeep Singh
+*/
+
+-----Server Side-----
+"C:\Program Files\Java\jdk-10.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar=64654:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin" -Dfile.encoding=UTF-8 -classpath D:\IdeaProjects\JDBCServer\out\production\JDBCServer;D:\Softwares\mysql-connector-java-8.0.12.jar com.gagandeep.ServerDemo
+Server waiting for client....
+Got one client.Creating thread for this client...
+Server waiting for client....
+Socket Closed !!!
+-----Client-----
+"C:\Program Files\Java\jdk-10.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar=64659:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.2\bin" -Dfile.encoding=UTF-8 -classpath D:\IdeaProjects\JDBCClient\out\production\JDBCClient com.gagandeep.Client
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 1
+
+Enter Roll No - 1
+
+Enter Name - Gagandeep
+
+Enter Marks - 90
+
+Added Succesfully !!!
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 1
+
+Enter Roll No - 60
+
+Enter Name - Troye
+
+Enter Marks - 88
+
+Added Succesfully !!!
+Updated Students List -> 
+1 -:- Gagandeep -:- 90.0
+34 -:- test -:- 33.0
+60 -:- Troye -:- 88.0
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 1
+
+Enter Roll No - 61
+
+Enter Name - Saurabh
+
+Enter Marks - 30
+
+Added Succesfully !!!
+Updated Students List -> 
+1 -:- Gagandeep -:- 90.0
+34 -:- test -:- 33.0
+60 -:- Troye -:- 88.0
+61 -:- Saurabh -:- 30.0
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 1
+
+Enter Roll No - 10
+
+Enter Name - Neelam
+
+Enter Marks - 70
+
+Added Succesfully !!!
+Updated Students List -> 
+1 -:- Gagandeep -:- 90.0
+10 -:- Neelam -:- 70.0
+34 -:- test -:- 33.0
+60 -:- Troye -:- 88.0
+61 -:- Saurabh -:- 30.0
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 4
+
+Enter passing marks : 35
+
+Failed Students List -> 
+34 -:- test -:- 33.0
+61 -:- Saurabh -:- 30.0
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 2
+
+Enter rollNo to be deleted : 34
+
+Added Succesfully !!!
+Updated Students List -> 
+1 -:- Gagandeep -:- 90.0
+10 -:- Neelam -:- 70.0
+60 -:- Troye -:- 88.0
+61 -:- Saurabh -:- 30.0
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 5
+
+Students List -> 
+1 -:- Gagandeep -:- 90.0
+10 -:- Neelam -:- 70.0
+60 -:- Troye -:- 88.0
+61 -:- Saurabh -:- 30.0
+
+***** Select Operation *****
+
+	1. Add Student
+	2. Delete Student
+	3. Search Student
+	4. Failed Student
+	5. Display
+	6. Exit
+Enter choice: 6
+Bye Bye Client from server!!! 
+
+Process finished with exit code 0
